@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commerce Guru | Empowering Minds, Shaping Futures</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --gold: #D4AF37;
+            --navy: #001f3f;
+        }
+        .bg-navy { background-color: var(--navy); }
+        .text-gold { color: var(--gold); }
+        .border-gold { border-color: var(--gold); }
+        .btn-gold { 
+            background-color: var(--gold); 
+            color: white;
+            transition: 0.3s;
+        }
+        .btn-gold:hover { background-color: #b8962e; }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans">
+
+    <nav class="bg-navy text-white sticky top-0 z-50 shadow-lg">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <img src="logo.jpg" alt="Commerce Guru Logo" class="h-12 w-12 rounded-full border-2 border-gold">
+                <span class="text-xl font-bold tracking-wider uppercase text-gold">Commerce Guru</span>
+            </div>
+            <div class="hidden md:flex space-x-8 font-medium">
+                <a href="#home" class="hover:text-gold">Home</a>
+                <a href="#courses" class="hover:text-gold">Courses</a>
+                <a href="#notes" class="hover:text-gold">Free Notes</a>
+                <a href="#contact" class="hover:text-gold">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="bg-navy text-white py-20 border-b-4 border-gold">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold mb-4">Empowering Minds. Shaping Futures.</h1>
+            <p class="text-lg md:text-xl mb-8 text-gray-300">Leading Coaching for Professional Commerce Courses</p>
+            <a href="#courses" class="btn-gold px-8 py-3 rounded-full font-bold uppercase tracking-wide">Explore Courses</a>
+        </div>
+    </section>
+
+    <section id="courses" class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-navy mb-12">Our Specialized Courses</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                <div class="bg-white p-8 rounded-xl shadow-md border-t-4 border-gold">
+                    <i class="fas fa-graduation-cap text-4xl text-navy mb-4"></i>
+                    <h3 class="text-xl font-bold mb-4 text-navy">School & College</h3>
+                    <p class="text-gray-600">Expert guidance for 11th, 12th (HSC), and B.Com students to build a strong foundation.</p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-md border-t-4 border-gold">
+                    <i class="fas fa-briefcase text-4xl text-navy mb-4"></i>
+                    <h3 class="text-xl font-bold mb-4 text-navy">Company Secretary</h3>
+                    <p class="text-gray-600">Comprehensive coaching for CSEET and CS Executive levels with mock tests.</p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-md border-t-4 border-gold">
+                    <i class="fas fa-chart-line text-4xl text-navy mb-4"></i>
+                    <h3 class="text-xl font-bold mb-4 text-navy">CA Foundation</h3>
+                    <p class="text-gray-600">Begin your Chartered Accountancy journey with our proven success methodology.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="notes" class="bg-gray-100 py-20">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-navy">Free Study Resources</h2>
+                <p class="text-gray-600 mt-2">Access high-quality notes compiled by Commerce Guru experts.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <a href="https://drive.google.com/drive/folders/1p-ilrD7Z8vhLsGYOuZFnjTIEDMI8EK7O?usp=drive_link" target="_blank" class="group bg-white p-6 rounded-lg flex items-center justify-between shadow hover:shadow-lg transition">
+                    <div class="flex items-center">
+                        <i class="far fa-file-pdf text-red-600 text-2xl mr-4"></i>
+                        <span class="font-bold text-navy">MSBSHSE Class 12th (HSC)</span>
+                    </div>
+                    <i class="fas fa-external-link-alt text-gray-400 group-hover:text-gold"></i>
+                </a>
+                <a href="https://drive.google.com/drive/folders/16R-1yhr-XdfUd4Ab3p7ztp0_aSdb2fzS?usp=drive_link" target="_blank" class="group bg-white p-6 rounded-lg flex items-center justify-between shadow hover:shadow-lg transition">
+                    <div class="flex items-center">
+                        <i class="far fa-file-pdf text-red-600 text-2xl mr-4"></i>
+                        <span class="font-bold text-navy">CSEET Notes</span>
+                    </div>
+                    <i class="fas fa-external-link-alt text-gray-400 group-hover:text-gold"></i>
+                </a>
+                <a href="https://drive.google.com/drive/folders/1Wg0E-50Mxk8vz3gM4DX8Jg36urnEsvPH?usp=drive_link" target="_blank" class="group bg-white p-6 rounded-lg flex items-center justify-between shadow hover:shadow-lg transition">
+                    <div class="flex items-center">
+                        <i class="far fa-file-pdf text-red-600 text-2xl mr-4"></i>
+                        <span class="font-bold text-navy">B.Com Notes</span>
+                    </div>
+                    <i class="fas fa-external-link-alt text-gray-400 group-hover:text-gold"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-navy mb-12">Contact Us</h2>
+            <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div>
+                    <h3 class="text-xl font-bold text-navy mb-4">Get In Touch</h3>
+                    <p class="text-gray-600 mb-6">Have questions? Fill out the form and our counselor will call you back within 24 hours.</p>
+                    <div class="space-y-4">
+                        <div class="flex items-center space-x-4">
+                            <i class="fas fa-phone text-gold"></i>
+                            <span>+91 98XXX XXXXX</span>
+                        </div>
+                        <div class="flex items-center space-x-4">
+                            <i class="fas fa-envelope text-gold"></i>
+                            <span>info@commerceguru.com</span>
+                        </div>
+                    </div>
+                </div>
+                <form class="space-y-4">
+                    <input type="text" placeholder="Your Name" class="w-full p-3 border border-gray-300 rounded focus:border-gold outline-none">
+                    <input type="email" placeholder="Your Email" class="w-full p-3 border border-gray-300 rounded focus:border-gold outline-none">
+                    <select class="w-full p-3 border border-gray-300 rounded focus:border-gold outline-none text-gray-500">
+                        <option>Interested Course</option>
+                        <option>11th/12th</option>
+                        <option>CA Foundation</option>
+                        <option>CS Courses</option>
+                    </select>
+                    <button class="w-full btn-gold py-3 rounded font-bold">SEND MESSAGE</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-navy text-white py-8 border-t-2 border-gold text-center">
+        <p>&copy; 2024 Commerce Guru - Education & Success. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
